@@ -27,7 +27,7 @@ while True:
         rewards = main_contract.functions.getTokenRewardsFor(account['address']).call()
         print(f"*****   开始操作{account['name']}，"
               f"角色数:{len(character_list)},"
-              f"待领取奖励：{rewards/9}   *****")
+              f"待领取奖励：{rewards/10000000000000000}   *****")
         time.sleep(2)
         for character in character_list:
             stamina = character_contract.functions.getStaminaPoints(character).call()
