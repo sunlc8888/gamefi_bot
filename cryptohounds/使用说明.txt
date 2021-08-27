@@ -1,0 +1,8 @@
+使用方法：
+1、去python.org下载并安装python
+2、pip install web3
+3、修改config.py，填入每个账号的地址、私钥（切记要保存好，泄漏会导致丢币）、以及每个角色的id（卡片上的NFT编号）
+4、运行auto_fight.py
+
+有问题加qq群: 996720688
+打赏地址(BSC): 0xE1049AE1c92CA090E02894F69F030d81B3Eec034
